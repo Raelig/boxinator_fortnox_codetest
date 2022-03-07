@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+:root {
+  --blue: #05386B;
+  --darkGreen: #379683;
+  --lightGreen: #8EE4AF;
+  --lightestGreen: #b7eecc;
+  --middleGreen: #65da92;
+  --greyGreen: #EDf5E1;
+}
+
+text {
+  color: var(--blue);
+ 
+}
+
+a {
+  all: unset;
+  padding: 0.5rem;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: var(--lightGreen);
+  margin: 0;
+}
+
+table {
+  width: 800px;
+  font-size: 20px;
+  border-spacing: 0px;
+}
+
+thead {
+  font-size: 25px;
+  color: var(--blue);
+  border: 0px;
+  background-color: var(--lightestGreen);
+  letter-spacing: 1px;
+}
+
+
+.mainContainer {
+  display:flex;
+  justify-content: center;
+  border-top:3px solid var(--blue);
+  background-color: var(--lightGreen);
+  padding-top: 10px;
+  
+}
+
+header {
+  background-color: var(--lightGreen);
+  /*border-bottom:4px solid var(--blue);*/
+  display:flex;
+  justify-content: left;
+  color: var(--greyGreen);
+  font-size: 30px;
+  text-shadow: 2px 2px var(--blue);
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.headerContainer {
+  display:flex;
+  justify-content: left;
+}
+
+#boxTable td, #boxTable th {
+  border: 1px solid var(--darkGreen);
+  padding: 8px;
+}
+
+#boxTable tr:nth-child(even){background-color: var(--lightestGreen);}
+
+#boxTable tr:hover {background-color: var(--middleGreen);}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: var(--greyGreen);
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: var(--greyGreen);
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+}
+
+.colourButton {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: var(--greyGreen);
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+}
+
+.cardContainer {
+  width: 450px;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: var(--greyGreen);
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+}
+
+p {
+  color: red;
+}
+
+form {
+  color: var(--blue)
+}
+
+button {
+  background-color: var(--darkGreen);
+  border: 2px solid var(--blue);
+  color: var(--greyGreen);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--greyGreen);
+  color: var(--darkGreen);
+}
+
+label {
+  font-size: 20px;
+}
+
+
